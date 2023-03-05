@@ -1,0 +1,22 @@
+package Allcollection.map;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Map {
+
+	public static void main(String[] args) {
+		HashMap<String, String> hm = new HashMap<>();
+		hm.put("a", "b");
+		hm.put("h", "m");
+		hm.put("w", "o");
+		//System.out.println("");
+		
+		for(String key:hm.keySet()) {
+			System.out.println(" key: "  + key+  " value: " + hm.get(key));
+		}
+		
+
+	}
+
+}

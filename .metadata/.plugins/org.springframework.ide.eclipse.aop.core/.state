@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="FirstProject"/>
+<aop-project name="CodeDecodeCURD"/>
+<aop-project name="LibraryModule"/>
+<aop-project name="VaccinationCenter"/>
+<aop-project name="Eurekaserver"/>
+<aop-project name="pathan"/>
+<aop-project name="Network"/>
+<aop-project name="CitizenService"/>
+<aop-project name="bootjpaexample"/>
+<aop-project name="bootjpa"/>
+<aop-project name="Mtech"/>
+<aop-project name="blog-app-apis"/>
+<aop-project name="Gate"/>
+</aop-reference-model>

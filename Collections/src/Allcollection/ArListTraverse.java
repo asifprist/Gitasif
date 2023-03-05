@@ -1,0 +1,39 @@
+package Allcollection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArListTraverse {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(2);
+		al.add(29);
+		al.add(52);
+		al.add(12);
+		al.add(2);
+		al.add(6);
+		
+		//al.stream().forEach((num)->{System.out.println(num);});
+		
+		Iterator<Integer> it = al.iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+			
+		}
+		
+		//System.out.println(al);
+//		for(Integer num:al) {
+//			System.out.println(num);
+//		}
+		
+		
+		
+		for(int counter=0;counter<al.size();counter++) {
+			//System.out.println(al.get(counter));
+		}
+
+	}
+
+}

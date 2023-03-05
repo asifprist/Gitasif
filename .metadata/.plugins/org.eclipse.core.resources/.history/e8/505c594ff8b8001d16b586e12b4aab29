@@ -1,0 +1,47 @@
+package controller;
+@RestController
+public class Controllers {
+	
+
+
+
+@RequestMapping("/stock")
+	@Autowired
+	private StockService stockService;
+	
+	@PostMapping("/save")
+   public ResponseEntity<Stock> saveStock(@RequestBody Stock stock)
+   {
+	  Stock saved=stockService.saveStock(stock);
+	  
+	  return new ResponseEntity<Stock>(stock,HttpStatus.CREATED);
+   }
+	
+	
+	@GetMapping("/all")
+	public ResponseEntity<List<Stock>> getAllStocks()
+	{
+		List<Stock>list=stockService.getAll();
+		
+		return new ResponseEntity<List<Stock>>(list,HttpStatus.OK);
+	}
+	
+	@PutMapping("/update")
+	public ResponseEntity<Stock> updateStock(@RequestBody Stock stock)
+	{
+		Stock saveStock = stockService.saveStock(stock);
+		
+		return new ResponseEntity<Stock>(saveStock,HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/delete/{item_code}")
+	public ResponseEntity<Void> deleteStock(@PathVariable Integer item_code)
+	{
+		stockService.deleteStock(item_code);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
+	
+	
+	
+
+}

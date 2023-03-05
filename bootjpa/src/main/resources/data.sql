@@ -1,0 +1,1 @@
+insert into webservice values (102,'asif');

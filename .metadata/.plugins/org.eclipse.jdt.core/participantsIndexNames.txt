@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1718038037.index
+\demorest\src\main\java
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2780236112.index
+\Velocis_Task\src\main\java
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3982331253.index
+\springmvcsearch\src\main\java
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1622306463.index
+\Struts1\Struts1\src
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490526498.index
+\springmvc\src\main\java
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1446278970.index
+\springmvc\src\main\java
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\440663053.index
+\CodeDecodeCURD\src\main\resources
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\696296719.index
+\Struts1\Struts1\src
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1266968493.index
+\springmvcsearch\src\main\resources
+C:\Users\a\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3715743806.index
+\bootjpa\src\main\java
